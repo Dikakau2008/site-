@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 - Ataques</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightyellow;
+        color: darkblue;
+      }
+      h1 {
+        color: purple;
+      }
+      table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+      }
+      table, th, td {
+        border: 1px solid #ddd;
+      }
+      th, td {
+        padding: 10px;
+        text-align: center;
+      }
+      button {
+        display: block;
+        width: 200px;
+        padding: 10px;
+        margin: 20px auto;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      img {
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+      }
+      p {
+        text-align: center;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="Ataques.jpeg" alt="Ataques" width="300">
+
+    <h1>Ataques de Huggy Wuggy</h1>
+    <h2>Huggy Wuggy não só é rápido, mas também tem uma série de ataques letais!</h2>
+
+    <table>
+      <tr>
+        <td>Tipo de Ataque</td>
+        <td>Intensidade</td>
+        <td>Letalidade</td>
+      </tr>
+      <tr>
+        <td>Mordida</td>
+        <td>Extremamente forte</td>
+        <td>Letal</td>
+      </tr>
+      <tr>
+        <td>Velocidade</td>
+        <td>Alta</td>
+        <td>Fatal</td>
+      </tr>
+      <tr>
+        <td>Estratégia</td>
+        <td>Imprevisível</td>
+        <td>Mortal</td>
+      </tr>
+    </table>
+
+    <p>Fuja antes que seja tarde demais! <span>😱</span></p>
+
+    <button onclick="window.location.href='index.html'">Voltar para a Página 1</button>
+  </body>
+</html>
