@@ -81,6 +81,6 @@
 
     <p>Fuja antes que seja tarde demais! <span>😱</span></p>
 
-    <button onclick="window.location.href='index.html'">Voltar para a Página 1</button>
+    <button onclick="window.location.href='index.html'">Seguir para a próxima página</button>
   </body>
 </html>
